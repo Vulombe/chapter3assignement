@@ -1,6 +1,7 @@
 package cput.ac.za;
 
 import cput.ac.za.domain.Animal;
+import org.junit.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -35,18 +36,22 @@ public class TestList
         animals.add(animal3.getAnimalName());
         animals.add(animal4.getAnimalName());
 
+        Assert.assertEquals("Lion",animal.getAnimalName());
+
         System.out.println(animals);
 
         System.out.println(animals.size());
 
-        animals.add(0,animal4);
-
+        animals.add(0,animal4.getAnimalName());
+        System.out.println(animals);
         System.out.println(animals.size());
 
         animals.remove(0);
 
         System.out.println(animals);
         System.out.println(animals.size());
+
+
         // for(int i = 0; i < animals.size(); i++)
         //System.out.println(animals);
         //listA.add(0, "element 0");

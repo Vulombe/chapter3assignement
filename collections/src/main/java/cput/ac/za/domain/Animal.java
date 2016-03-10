@@ -5,8 +5,8 @@ package cput.ac.za.domain;
  */
 public class Animal
 {
-    String animalName;
-    String animaltype;
+    private String animalName;
+    private String animaltype;
 
     public Animal() {
     }

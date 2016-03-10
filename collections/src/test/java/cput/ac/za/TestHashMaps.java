@@ -1,6 +1,7 @@
 package cput.ac.za;
 
 import cput.ac.za.domain.Vehicle;
+import org.junit.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -35,13 +36,22 @@ public class TestHashMaps
         carType.put(vehicle2.getRegNum(),vehicle.getName());
         carType.put(vehicle3.getRegNum(),vehicle.getName());
 
+        Assert.assertEquals(15524,vehicle.getRegNum());
+
         System.out.println(carType);
+
         System.out.println(carType.size());
+
         carType.remove(15524);
+
         System.out.println(carType);
+
         System.out.println(carType.size());
+
         carType.clear();
+
         System.out.println(carType);
+
         System.out.println(carType.size());
     }
 }

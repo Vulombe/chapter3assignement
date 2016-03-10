@@ -5,8 +5,8 @@ package cput.ac.za.domain;
  */
 public class Vehicle
 {
-    int regNum;
-    String name;
+    private int regNum;
+    private String name;
 
     public Vehicle(int regNum, String name) {
         this.regNum = regNum;
