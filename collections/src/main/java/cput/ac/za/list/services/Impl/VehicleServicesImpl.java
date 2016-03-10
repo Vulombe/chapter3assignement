@@ -10,7 +10,8 @@ import java.util.HashMap;
 public class VehicleServicesImpl implements VehicleServices
 {
     @Override
-    public void addNewVehicle(int RegNumber, HashMap<String, String> names) {
+    public void addNewVehicle(int RegNumber, String name)
+    {
 
     }
 }

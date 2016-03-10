@@ -24,6 +24,8 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="collections" />
+        <module name="interfaceexcercise1" />
+        <module name="interfaceexcercise2" />
       </profile>
     </annotationProcessing>
   </component>
