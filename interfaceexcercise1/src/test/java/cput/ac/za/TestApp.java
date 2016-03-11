@@ -2,6 +2,7 @@ package cput.ac.za;
 
 import cput.ac.za.services.Impl.TermResultsPerSubjectServicesImpl;
 import cput.ac.za.services.ResultsServices;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

@@ -32,4 +32,11 @@ public class TermResultsPerSubjectServicesImpl implements ResultsServices
                 + "Term four Marks: " + marks.get(3);
         System.out.println(results);
     }
+
+    @Override
+    public String studentName(String sName)
+    {
+        return sName;
+    }
+
 }

@@ -8,4 +8,6 @@ import java.util.HashMap;
 public interface ResultsServices
 {
     public void printResults();
+
+    public String studentName(String sName);
 }
