@@ -9,5 +9,5 @@ public interface ResultsServices
 {
     public void printResults();
 
-    public String studentName(String sName);
+    public String studentName();
 }

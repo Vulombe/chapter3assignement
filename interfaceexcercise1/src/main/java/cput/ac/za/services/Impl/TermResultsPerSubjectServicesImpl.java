@@ -11,6 +11,7 @@ import java.util.List;
  */
 public class TermResultsPerSubjectServicesImpl implements ResultsServices
 {
+
     @Override
     public void printResults()
     {
@@ -34,9 +35,9 @@ public class TermResultsPerSubjectServicesImpl implements ResultsServices
     }
 
     @Override
-    public String studentName(String sName)
+    public String studentName()
     {
-        return sName;
+        return "Vulombe";
     }
 
 }

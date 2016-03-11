@@ -21,5 +21,6 @@ public class TestApp
     @Test
     public void testResults() throws Exception {
         resultsServices.printResults();
+        Assert.assertEquals("Vulombe", resultsServices.studentName());
     }
 }
