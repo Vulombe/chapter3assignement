@@ -30,7 +30,9 @@ public class TermResultsPerSubjectServicesImpl implements ResultsServices
                 + "Term two Marks: " + marks.get(1) + "\n"
                 + "Term three Marks: " + marks.get(2) + "\n"
                 + "Term four Marks: " + marks.get(3);
+
         System.out.println(results);
+        //return results;
     }
 
     @Override

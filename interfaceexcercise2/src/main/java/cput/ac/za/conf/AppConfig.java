@@ -1,6 +1,7 @@
 package cput.ac.za.conf;
 
 import cput.ac.za.services.Impl.FinalResultsAllSubjectsServiceImpl;
+import cput.ac.za.services.Impl.TermResultsAllSubjectsService;
 import cput.ac.za.services.Impl.TermResultsPerSubjectServicesImpl;
 import cput.ac.za.services.ResultsServices;
 import org.springframework.context.annotation.Bean;
@@ -18,9 +19,16 @@ public class AppConfig
         return new TermResultsPerSubjectServicesImpl();
     }
 
+    @Bean (name = "termresults")
+    public ResultsServices getTermResults()
+    {
+        return new TermResultsAllSubjectsService();
+    }
+
     @Bean (name = "finalyearresults")
     public ResultsServices getFinalYearResults()
     {
         return new FinalResultsAllSubjectsServiceImpl();
     }
+
 }
