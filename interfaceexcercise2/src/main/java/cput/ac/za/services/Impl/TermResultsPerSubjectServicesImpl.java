@@ -38,6 +38,6 @@ public class TermResultsPerSubjectServicesImpl implements ResultsServices
     @Override
     public String studentName()
     {
-        return "Vulombe";
+        return "Makhubele";
     }
 }
