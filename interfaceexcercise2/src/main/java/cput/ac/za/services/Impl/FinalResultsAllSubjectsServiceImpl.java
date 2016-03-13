@@ -15,7 +15,7 @@ public class FinalResultsAllSubjectsServiceImpl implements ResultsServices
     @Override
     public void printResults()
     {
-        String lastName = "Makhubele";
+        String fName = "Vulombe";
         List<String> subjects = new ArrayList<String>();
         subjects.add("TPG200S");
         subjects.add("DOS300S");
@@ -31,23 +31,12 @@ public class FinalResultsAllSubjectsServiceImpl implements ResultsServices
         marks.add(65);
         marks.add(60);
 
-        String results;
-
-        results = "Student Name: " + lastName + "\n"
-                + "Subject: " + subjects.get(0) + "\t"
-                + "Mark: " + marks.get(0) + " "
-                + "\n"
-                + "Subject: " + subjects.get(1)+ "\t"
-                + "Mark: " + marks.get(1) + " "
-                +"\n"
-                + "Subject: " + subjects.get(2) + "\t"
-                + "Mark: " + marks.get(2) + " "
-                +"\n"
-                + "Subject: " + subjects.get(3) + "\t"
-                + "Mark: " + marks.get(3) + " "
-                + "\n"
-                + "Subject: " + subjects.get(4) + "\t"
-                + "Mark: " + marks.get(4);
+        String results = "Student Name: " + fName + "\n" + "Subject: " + subjects.get(0) + "\t"
+                + "Mark: " + marks.get(0) + " " + "\n"
+                + "Subject: " + subjects.get(1)+ "\t" + "Mark: " + marks.get(1) + " " +"\n"
+                + "Subject: " + subjects.get(2) + "\t" + "Mark: " + marks.get(2) + " " +"\n"
+                + "Subject: " + subjects.get(3) + "\t" + "Mark: " + marks.get(3) + " " + "\n"
+                + "Subject: " + subjects.get(4) + "\t" + "Mark: " + marks.get(4);
 
         System.out.println(results);
         //return results;

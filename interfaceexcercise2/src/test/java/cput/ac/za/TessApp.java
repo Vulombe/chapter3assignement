@@ -26,7 +26,7 @@ public class TessApp
     public void testResults() throws Exception {
         services.printResults();
         String vulombe  = services.studentName();
-        Assert.assertEquals(vulombe, "Vulombe");
+        Assert.assertEquals(vulombe, "Makhubele");
 
     }
 }

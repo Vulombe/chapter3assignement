@@ -22,17 +22,12 @@ public class TermResultsPerSubjectServicesImpl implements ResultsServices
         marks.add(70.1);
         marks.add(65.5);
         marks.add(60.3);
-        String results;
 
-        results = "Student Name: " + names.get("Vulombe") + "\n"
-                + "Subject: " + subjectName + "\n"
-                + "Term one Marks: " + marks.get(0) + "\n"
-                + "Term two Marks: " + marks.get(1) + "\n"
-                + "Term three Marks: " + marks.get(2) + "\n"
-                + "Term four Marks: " + marks.get(3);
+        String results = "Student Name: " + names.get("Vulombe") + "\n" + "Subject: " + subjectName + "\n"
+                + "Term one Marks: " + marks.get(0) + "\n" + "Term two Marks: " + marks.get(1) + "\n"
+                + "Term three Marks: " + marks.get(2) + "\n" + "Term four Marks: " + marks.get(3);
 
         System.out.println(results);
-        //return results;
     }
 
     @Override
